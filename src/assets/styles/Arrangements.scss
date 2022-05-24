@@ -1,0 +1,48 @@
+.arrangements {
+  background: #FAF8F0;
+
+  &__main-text {
+    text-align: center;
+    color: #52503B;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 544px;
+    margin: 0 auto;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 64px;
+  }
+
+  &__column {
+    display: grid;
+    text-align: center;
+  }
+
+  &__icon {
+    margin-bottom: 12px;
+  }
+
+  &__column-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  &__column-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
