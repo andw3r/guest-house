@@ -1,4 +1,4 @@
-# cli-vue-project
+# guest-house
 
 ## Project setup
 ```
