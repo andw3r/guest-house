@@ -1,0 +1,26 @@
+.arrangements {
+  &__column {
+    display: grid;
+    text-align: center;
+  }
+
+  &__icon {
+    margin-bottom: 12px;
+    img {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+
+  &__column-title {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  &__column-text {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+}

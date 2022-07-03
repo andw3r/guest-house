@@ -1,0 +1,31 @@
+.escape {
+  .wrapper {
+    &::before {
+      left: 21px;
+    }
+  }
+
+  &__text {
+    color: #52503b;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 554px;
+  }
+
+  &__columns-container {
+    display: grid;
+    gap: 32px;
+    grid-template-rows: 4;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

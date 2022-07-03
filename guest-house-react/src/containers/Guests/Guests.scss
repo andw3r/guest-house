@@ -1,0 +1,34 @@
+.guests {
+  background: #faf8f0;
+
+  &__text {
+    text-align: center;
+    color: #52503b;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    max-width: 600px;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 24px;
+  }
+
+  .reviews-container {
+  }
+
+  &__reviews-wrapper {
+    display: flex;
+    cursor: grab;
+    gap: 20px;
+    @media screen and (max-width: 567px) {
+      gap: 10px;
+    }
+  }
+}

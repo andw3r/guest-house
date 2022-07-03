@@ -1,0 +1,21 @@
+.escape {
+  &__column {
+    display: flex;
+  }
+
+  &__column-icon {
+    margin-right: 16px;
+  }
+
+  &__column-title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503b;
+  }
+
+  &__column-description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+  }
+}
